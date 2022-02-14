@@ -1,0 +1,35 @@
+  /* parte de playlist */
+
+
+
+
+  .segundoTitulo{
+    background: $color-bg2;
+    font-weight: bold;
+    font-size: 200%;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+    align-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 15px solid rgb(255, 255, 255);
+    text-align: center;
+    color: $color-text1;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 15px;
+ 
+ }
+    .musica{
+        text-align: center;
+    }
+    .musica video{
+        justify-content: space-evenly;
+        align-content:space-around;
+        padding-bottom: 20px;
+
+
+    }
+
+
+    .row g-1{
+        background-color: beige;
+    }
