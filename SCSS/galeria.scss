@@ -1,5 +1,9 @@
     /* Comienza la parte de galeria HTML */
 
+
+    
+
+  @media screen and (max-width: 768px){
     #fondoFotos{
         display: grid;
         height: 900px;
@@ -54,8 +58,133 @@
             grid-area: foto8;
         }
        
+        .fotosdegaleria {overflow:hidden;}
+    }
+    }
+
+    
+}
+
+@media screen and (min-width: 768px){
+    #fondoFotos{
+        display: grid;
+        height: 900px;
+        grid-template-columns: 23% 23% 23% 23%;
+        grid-template-rows: 45% 45%;
+        grid-template-areas:"foto1 foto2 foto3 foto4"
+                            "foto5 foto6 foto7 foto8";
+        background-color: beige;
+        justify-items: center;
+        align-content: space-around;
+        justify-content: center;
+        column-gap: 2px;
+            
+        img:hover {-webkit-transform:scale(1.0);transform:scale(1.2);}
+        img:hover {transition-duration: 2s;}
+
+           img{
+            width: 100%;
+            height: 100%;
+            justify-items: center;
+            box-shadow: chocolate -3px 3px 5px 4px;
+
+           
+       .fotosdegaleria1 img{
+            grid-area: foto1;
+            
+        }
+        
+        .fotosdegaleria2 img{
+            grid-area: foto2;
+        }
+    
+        .fotosdegaleria3 img{
+            grid-area: foto3;
+            }
+    
+        .fotosdegaleria4 img{
+            grid-area: foto4;
+            }
+    
+        .fotosdegaleria5 img{
+            grid-area: foto5;
+            }
+        .fotosdegaleria6 img{
+            grid-area: foto6;
+            }
+        .fotosdegaleria7 img{
+            grid-area: foto7;
+            }
+                                
+        .fotosdegaleria8 img{
+            grid-area: foto8;
+        }
+        .fotosdegaleria {overflow:hidden;}
+    }
+    }
+
+}
+
+
+@media screen and (min-width: 1024px){
+    #fondoFotos{
+        display: grid;
+        height: 900px;
+        grid-template-columns: 23% 23% 23% 23%;
+        grid-template-rows: 45% 45%;
+        grid-template-areas:"foto1 foto2 foto3 foto4"
+                            "foto5 foto6 foto6 foto8";
+        background-color: beige;
+        justify-items: center;
+        align-content: space-around;
+        justify-content: center;
+        column-gap: 2px;
+        padding-bottom: 40px;
+            
+        img:hover {-webkit-transform:scale(1.0);transform:scale(1.2);}
+        img:hover {transition-duration: 4s;}
+
+           img{
+            width: 100%;
+            height: 100%;
+            justify-items: center;
+            box-shadow: chocolate -3px 3px 5px 4px;
+
+           
+       .fotosdegaleria1 img{
+            grid-area: foto1;
+            
+        }
+        
+        .fotosdegaleria2 img{
+            grid-area: foto2;
+        }
+    
+        .fotosdegaleria3 img{
+            grid-area: foto3;
+            }
+    
+        .fotosdegaleria4 img{
+            grid-area: foto4;
+            }
+    
+        .fotosdegaleria5 img{
+            grid-area: foto5;
+            }
+        .fotosdegaleria6 img{
+            grid-area: foto6;
+            }
+        .fotosdegaleria7 img{
+            grid-area: foto7;
+            }
+                                
+        .fotosdegaleria8 img{
+            grid-area: foto8;
+        }
+       
                           
     
         .fotosdegaleria {overflow:hidden;}
+    }
     }
 }

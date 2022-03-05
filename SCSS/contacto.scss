@@ -1,6 +1,38 @@
 /* Comienzo parte de contacto */
 
 
+
+@media screen and (max-width: 768px){
+    #tituloContacto{
+        font-family: 'Bebas Neue', cursive;
+        text-align: center;
+    }
+     
+    #fotoFondo{
+        background-image: url(../img/casalogo2.png.png) ;
+        background-position: center;
+    
+    }
+
+    
+}
+
+@media screen and (min-width: 768px){
+    #tituloContacto{
+        font-family: 'Bebas Neue', cursive;
+        text-align: center;
+    }
+     
+    #fotoFondo{
+        background-image: url(../img/casalogo2.png.png) ;
+        background-position: center;
+    
+    }
+
+}
+
+
+@media screen and (min-width: 1024px){
 #tituloContacto{
     font-family: 'Bebas Neue', cursive;
     text-align: center;
@@ -10,4 +42,5 @@
     background-image: url(../img/casalogo2.png.png) ;
     background-position: center;
 
+}
 }

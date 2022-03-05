@@ -1,3 +1,51 @@
+
+@media screen and (max-width: 768px){
+    .tituloCuarto{
+    @include letraColor(rgb(255, 255, 255), rgb(3, 3, 3), 'Bebas Neue', center);
+}
+
+.instructores1{
+    @include letraColor(rgb(0, 0, 0), rgb(98, 181, 161), 'Bebas Neue', center);
+
+}
+
+.instructores2{
+    @include letraColor(rgb(103, 174, 162), rgb(111, 89, 54), 'Bebas Neue', center);
+
+}
+.instructores3{
+    @include letraColor(grey, rgb(255, 255, 255), 'Bebas Neue', center);
+
+}
+
+}   
+
+
+@media screen and (min-width: 768px){
+    .tituloCuarto{
+    @include letraColor(rgb(255, 255, 255), rgb(3, 3, 3), 'Bebas Neue', center);
+}
+
+.instructores1{
+    @include letraColor(rgb(0, 0, 0), rgb(98, 181, 161), 'Bebas Neue', center);
+
+}
+
+.instructores2{
+    @include letraColor(rgb(103, 174, 162), rgb(111, 89, 54), 'Bebas Neue', center);
+
+}
+.instructores3{
+    @include letraColor(grey, rgb(255, 255, 255), 'Bebas Neue', center);
+
+}
+}
+
+
+
+@media screen and (min-width: 1024px){
+
+
 .tituloCuarto{
     @include letraColor(rgb(255, 255, 255), rgb(3, 3, 3), 'Bebas Neue', center);
 }
@@ -14,4 +62,5 @@
 .instructores3{
     @include letraColor(grey, rgb(255, 255, 255), 'Bebas Neue', center);
 
+}
 }
